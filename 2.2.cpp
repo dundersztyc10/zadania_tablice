@@ -6,7 +6,7 @@ int main ()
 {
     string a;
     int ile,ile_a=0;
-    cout << "Podaj zdania: ";
+    cout << "Podaj zdanie: ";
     getline(cin,a);
     for(int i=0; i<a.length(); i++){
         if(a[i]=='a'){
